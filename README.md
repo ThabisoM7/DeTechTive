@@ -31,7 +31,6 @@ DeTechtive is built using modern Android development practices with Kotlin.
 DeTechtive is an actively developed project. Future enhancements include:
 
 *   **Proactive SMS Scanning:** Granting permission for the app to automatically scan incoming SMS messages for threats in the background.
-*   **Dark Mode Support:** A sleek, eye-friendly dark theme that respects the system-wide user setting.
 *   **Security Education Center:** A dedicated section with curated tips and guides on staying safe online.
 
 ## Getting Started
