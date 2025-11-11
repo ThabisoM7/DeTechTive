@@ -38,6 +38,14 @@ class MainFragment : Fragment() {
                 ?.addToBackStack(null)
                 ?.commit()
         }
+        view?.findViewById<Button>(R.id.buttonNews)?.setOnClickListener {
+            val newsFragment = NewsFragment()
+            val fragmentTransaction: FragmentTransaction? = activity?.supportFragmentManager?.beginTransaction()
+            fragmentTransaction
+                ?.replace(R.id.fragmentContainerView, newsFragment)
+                ?.addToBackStack(null)
+                ?.commit()
+        }
         view?.findViewById<Button>(R.id.buttonAbout)?.setOnClickListener {
             createAboutView()
         }
@@ -77,23 +85,3 @@ class MainFragment : Fragment() {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

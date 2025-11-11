@@ -46,6 +46,15 @@
             android:textSize="18sp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonNews"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/button_news"
+            android:textSize="18sp" />
+
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/buttonAbout"
             style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="250dp"
