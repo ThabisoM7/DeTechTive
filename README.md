@@ -1,4 +1,4 @@
-# DeTechtive
+# DeTechTive
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Kotlin Version](https://img.shields.io/badge/Kotlin-1.8.10-blue.svg)](https://kotlinlang.org)
